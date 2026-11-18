@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SVG Flower</title>
+</head>
+<body style="display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; background-color: #f0f8ff;">
+
+  <svg width="300" height="450" viewBox="0 0 300 450" xmlns="http://www.w3.org/2000/svg">
+    <!-- Stem -->
+    <path d="M150 200 Q140 310 150 420" stroke="#2e7d32" stroke-width="10" fill="none" stroke-linecap="round" />
+
+    <!-- Leaves -->
+    <path d="M146 310 Q90 280 80 320 Q110 345 146 320" fill="#4caf50" />
+    <path d="M148 270 Q205 240 215 280 Q185 305 148 280" fill="#4caf50" />
+
+    <!-- Petals -->
+    <g transform="translate(150, 170)">
+      <ellipse cx="0" cy="-55" rx="25" ry="50" fill="#ff4081" transform="rotate(0)" />
+      <ellipse cx="0" cy="-55" rx="25" ry="50" fill="#ff80ab" transform="rotate(45)" />
+      <ellipse cx="0" cy="-55" rx="25" ry="50" fill="#ff4081" transform="rotate(90)" />
+      <ellipse cx="0" cy="-55" rx="25" ry="50" fill="#ff80ab" transform="rotate(135)" />
+      <ellipse cx="0" cy="-55" rx="25" ry="50" fill="#ff4081" transform="rotate(180)" />
+      <ellipse cx="0" cy="-55" rx="25" ry="50" fill="#ff80ab" transform="rotate(225)" />
+      <ellipse cx="0" cy="-55" rx="25" ry="50" fill="#ff4081" transform="rotate(270)" />
+      <ellipse cx="0" cy="-55" rx="25" ry="50" fill="#ff80ab" transform="rotate(315)" />
+      
+      <!-- Flower Center -->
+      <circle cx="0" cy="0" r="32" fill="#ffc107" />
+      <circle cx="0" cy="0" r="24" fill="#ff9800" />
+    </g>
+  </svg>
+
+</body>
+</html> 
